@@ -23,11 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         //agregando
         nombres.add("Jose");
         nombres.add("Maria");
-
 
         ListView l=(ListView) findViewById(R.id.lista);
 
